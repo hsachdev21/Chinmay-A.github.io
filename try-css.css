@@ -50,7 +50,7 @@ html{
 }
 
 #ca-tcimg{
-    height: 50vh;
+    height: 97vh;
     width: 100%;
     margin-bottom: -10px;
 }
@@ -89,7 +89,8 @@ html{
     float: left;
     font-family: 'Lexend Deca', sans-serif;
     margin-left: 15vh;
-    padding-top: 10vh;
+    padding-top: 7vh;
+    font-size: larger;
 }
 
 #ca-video-video{
@@ -98,4 +99,35 @@ html{
     width: 90vh;
     margin-right: 15vh;
 
+}
+
+#ca-vid-button{
+    background-color: #169d6c;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    /*height: 3vh;
+    width: 5vh;*/
+    padding: 1.5vh;
+    border-radius: 10%;
+
+}
+
+#ca-a{
+    text-decoration: none;
+}
+
+#ca-vid-button:hover{
+    background-color: white;
+    color: #169d6c;
+}
+
+#ca-hrule-a{
+    background-color: #169d6c;
+    height: 0.3vh;
+    width: 110vh;
+    transform: translateZ(-10);
+}
+
+#ca-make-bg-rgb-239{
+    background-color: rgb(239, 239, 239);
 }
