@@ -4,7 +4,7 @@
 }
 
 .ra-main-block {
-    background-color: rgb(239, 239, 239);
+    background-color: #e6e6e6;
     width: 100%;
     overflow: hidden;
 }
@@ -14,10 +14,11 @@
 }
 
 .ra-content {
-    background-color: #a9a9a9;
+    background-color: rgb(189 189 189 / 70%);
     width: 80%;
-    margin: 80px auto 80px auto;
+    margin: 100px auto 40px auto;
     border-radius: 20px;
+    position: relative;
 }
 
 .ra-content img {
@@ -25,8 +26,8 @@
     object-fit: cover;
     border-radius: 50%;
     margin: auto;
-    position: relative;
-    top: 50%;
+    transform: translateY(-50%);
+    border: 15px solid rgb(230, 230, 230);;
 }
 
 .ra-quotes-left {
@@ -59,6 +60,7 @@
 
 .ra-carousel-para {
     padding: 10px 0 50px 0;
+    margin-top: -70px;
 }
 
 .ra-prev,
@@ -91,7 +93,7 @@
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 0px 2px 40px 2px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;

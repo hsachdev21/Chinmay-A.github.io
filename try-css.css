@@ -131,3 +131,28 @@ html{
 #ca-make-bg-rgb-239{
     background-color: rgb(239, 239, 239);
 }
+
+#ca-text-div-main{
+    font-family: 'Lexend Deca', sans-serif;
+    padding-right: 3vh;
+    padding-left: 3vh;
+    font-size: large;
+    line-height: 5vh;
+    background-color: white !important;
+    padding-top: 7vh;
+}
+
+.ca-text-color-chng{
+    color: #169d6c;
+}
+
+#ca-border-box{
+    border: solid;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-color: #169d6c;
+    border-radius: 9px;
+    border-width: 0.753vh;
+}
