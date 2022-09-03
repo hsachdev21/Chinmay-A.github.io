@@ -136,7 +136,7 @@ html{
     font-family: 'Lexend Deca', sans-serif;
     padding-right: 3vh;
     padding-left: 3vh;
-    font-size: large;
+    font-size: medium;
     line-height: 5vh;
     background-color: white !important;
     padding-top: 7vh;
@@ -155,4 +155,9 @@ html{
     border-color: #169d6c;
     border-radius: 9px;
     border-width: 0.753vh;
+}
+
+#ca-foot-contribution{
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
 }

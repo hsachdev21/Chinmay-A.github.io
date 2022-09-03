@@ -101,25 +101,53 @@ html{
 
 }
 
-#ca-vid-button{
+/**#ca-vid-button{
     background-color: #169d6c;
     font-family: 'Lexend Deca', sans-serif;
     color: white;
     /*height: 3vh;
-    width: 5vh;*/
+    width: 5vh;stop heree
     padding: 1.5vh;
     border-radius: 10%;
 
-}
+}*/
 
 #ca-a{
     text-decoration: none;
 }
 
-#ca-vid-button:hover{
+/*#ca-vid-button:hover{
     background-color: white;
     color: #169d6c;
-}
+}*/
+
+#ca-vid-button {
+    background: #168d6b;
+    background-image: -webkit-linear-gradient(top, #168d6b, #118c5f);
+    background-image: -moz-linear-gradient(top, #168d6b, #118c5f);
+    background-image: -ms-linear-gradient(top, #168d6b, #118c5f);
+    background-image: -o-linear-gradient(top, #168d6b, #118c5f);
+    background-image: linear-gradient(to bottom, #168d6b, #118c5f);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+#ca-vid-button:hover {
+    background: #147d57;
+    background-image: -webkit-linear-gradient(top, #147d57, #0abf7d);
+    background-image: -moz-linear-gradient(top, #147d57, #0abf7d);
+    background-image: -ms-linear-gradient(top, #147d57, #0abf7d);
+    background-image: -o-linear-gradient(top, #147d57, #0abf7d);
+    background-image: linear-gradient(to bottom, #147d57, #0abf7d);
+    text-decoration: none;
+  }
 
 #ca-hrule-a{
     background-color: #169d6c;
@@ -136,7 +164,7 @@ html{
     font-family: 'Lexend Deca', sans-serif;
     padding-right: 3vh;
     padding-left: 3vh;
-    font-size: large;
+    font-size: medium;
     line-height: 5vh;
     background-color: white !important;
     padding-top: 7vh;
@@ -155,4 +183,9 @@ html{
     border-color: #169d6c;
     border-radius: 9px;
     border-width: 0.753vh;
+}
+
+#ca-foot-contribution{
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
 }
