@@ -1,0 +1,258 @@
+@keyframes transition{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+@keyframes fade {
+    0%   {opacity: 0;size: 0;}
+    25%  {opacity: 100%;}
+    50%  {opacity: 0;}
+    75%  {opacity: 100%;}
+    100% {opacity: 0;}
+  }
+
+.loader{
+    animation-name: fade;
+    animation-duration: 6.9s;
+}
+
+.loadWrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    display: none;
+    background-image: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-attachment: fixed;
+    background-image: linear-gradient(to top, #4cffcb, #5affff, #aafdff, #e6faff, #ffffff); */
+    background-color: rgb(212, 212, 212);
+}
+
+.headings{
+    text-align: center;
+    /* border: 2px solid red; */
+    /*background-color: rgb(7, 0, 88);*/
+    /*border-radius: 30px 30px 0px 0px;*/
+    margin-top: 85px;
+    color:#00C782 ;
+    font-size: 300%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.headings :hover + hr{
+    color:blue;
+}
+.heads{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.box-executives{
+    /* border: 2px solid rgb(42, 198, 141);
+    border-radius: 8px; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.heading-executives{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 10px;
+    color:#00C782;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.executives{
+    display: flex;
+    justify-content: space-around;
+    width: 88%;
+}
+.item{
+    border: none;
+}
+figure {
+    position: relative;
+    display:grid;
+    background-color: white;
+    /* align-items: flex-end; */
+    width: 22%;
+    justify-items: center;
+    transition : filter 1s;
+    border: none;
+    margin-top: 30px;
+    border-radius: 14px;
+    /* border: 2px solid #00C782; */
+    box-shadow: 5px 5px gray;
+}
+.heads img{
+    height: 150px;
+    width: 150px;
+    border-collapse: collapse;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    margin-top: 15px;
+}
+figure img{
+    height: 150px;
+    width: 150px;
+    border-collapse: collapse;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+figure > .text{
+    position: relative;
+    visibility:hidden;
+    transition : visibility 0s , opacity 1s;
+    opacity: 0;
+    text-align: center;
+    width:200px;
+}
+figure:is(:hover,:focus)> .text{
+    visibility: visible;
+    opacity : 1;
+}
+figure figcaption{
+    width:200px;
+    text-align: center;
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#00C782;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    margin-bottom:10px;
+    font-weight: bold;
+   /* background-color: ;*/
+}
+figure figcaption::first-line{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.hor{
+    list-style: none;
+    position: absolute;
+}
+.hor li{
+    display: inline;
+    padding: 5px;
+}
+.fa {
+    font-size: 35px;
+    color: black;
+    filter: brightness(10);
+    margin: 5px;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease-out;
+}
+.fa:hover{
+    text-decoration: underline;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+}
+.dash{
+    margin:1% 30%;
+    height: 5px;
+    margin: 1% 30%;
+    background-color: #00C984;
+    transition: all 0.5s ease-in;
+}
+#nav-bar-sec{
+    /*background-color: #00C984;*/
+    height: 85px;
+    width: auto;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+#nav-bar-ul{
+    display: inline;
+    list-style-type: none;
+}
+.nav-item{
+    float: right;
+    margin-left: 10px;
+    margin-right: 23px;
+    margin-top: 29px;
+}
+
+.nav-ul-link{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.nav-ul-link:hover{
+    /*text-decoration: underline;
+    text-decoration-color: black;
+    font-size: 28px;*/
+    transition: 0.1s ease;
+}
+#final-link{
+    margin-right: 23px;
+}
+
+#logo-share{
+    height: 75px;
+    margin-right: 10px;
+    margin-left: 27px;
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    -o-filter: brightness(50%);
+    -ms-filter: brightness(50%);
+}
+
+#logo-iitk{
+    height: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#nav-img-link{
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 1238px) {
+    figure{
+        /* width: 300px; */
+        margin-left: 20%;
+        width: 70%;
+        max-width: 385px;
+    }
+    .heads{
+        flex-direction: column;
+        width: 100%;
+    }
+    .executives{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+
+}
